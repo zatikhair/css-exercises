@@ -16,3 +16,9 @@
   width: 80px;
   height: 80px;
 }
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}

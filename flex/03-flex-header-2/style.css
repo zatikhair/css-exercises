@@ -49,16 +49,23 @@ ul {
 
 .header {
   display: flex;
+  justify-content: space-around;
+  padding: 8px;
   border: solid blue 10px;
 }
 
 ul {
   display: flex;
   border: solid purple 10px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 .left, .right {
   display: flex;
+  align-items: center;
+  gap: 16px;
   border: solid green 10px;
 }
 
